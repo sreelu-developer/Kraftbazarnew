@@ -1,0 +1,70 @@
+
+
+
+  <div id="masthead">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Profile
+            <p class="lead"></p>
+          </h1>
+        </div>
+        
+      </div> 
+    </div><!-- /cont -->
+    
+    
+  
+  
+         
+  <div class="container" *ngFor = "let user of httpdata">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body">
+            
+            
+            
+            <!--/stories-->
+            <hr>
+            <!-- <ul > -->
+            <div class="container" style="width: 30rem;" >
+            <img src="{{user.image}}" height="200" width="200" style="margin: auto;" class="rounded-circle" alt="...">
+            <div >
+             <h2  style="color: rgb(34, 32, 32);">{{user.username}}</h2>
+            <h6 style="color: rgb(34, 32, 32);">Title: {{user.title}}</h6>
+            <h6 style="color: rgb(34, 32, 32);">Email: {{user.mail}}</h6>
+            <h6 style="color: rgb(34, 32, 32);">Contact No: {{user.contact}}</h6>
+
+            <!-- <a href="/updateadmin" class="btn btn-success">Update Profile</a> -->
+            <a href="/login" class="btn btn-success">Log Out</a>
+
+            </div>
+            </div>
+
+          <!-- </ul> -->
+            
+            <hr>
+            
+            
+            
+          </div>
+        </div>
+                                                                                         
+                                                      
+                                                        
+         </div><!--/col-12-->
+    </div>
+  </div>
+                                                  
+                                                                                  
+  
+  
+  <hr>
+  
+  
+      <!-- script references -->
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>

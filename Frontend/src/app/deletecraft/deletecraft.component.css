@@ -1,0 +1,15 @@
+@import "..\src\assets\css\styles.css";
+.btn {
+    color: white;
+}
+.btn:hover {
+    color: white;
+}
+#message
+{
+    text-align:center;
+    display:block;
+    color:aqua;
+    background-color: black;
+    margin:50px;
+}

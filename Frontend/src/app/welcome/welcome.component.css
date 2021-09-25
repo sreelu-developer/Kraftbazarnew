@@ -1,0 +1,33 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
+@import "..\src\assets\css\styles.css";
+
+  
+  
+  
+  
+  
+.cards{
+    background-color: rgba(0, 0, 0, 0.959);
+    
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+}
+
+.card {
+    margin: auto;
+
+    padding: 10px;
+    
+    
+    
+}
+.btn {
+  color: white;
+}
+.btn:hover {
+  color: white;
+}

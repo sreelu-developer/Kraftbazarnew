@@ -1,0 +1,106 @@
+<div id="masthead">  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Sign In
+            <p class="lead"></p>
+          </h1>
+        </div>
+        
+      </div> 
+    </div><!-- /cont -->
+    
+    
+    
+  </div>
+  <br>
+  
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12"> 
+        
+        <div class="panel">
+          <div class="panel-body">
+            
+            
+            
+            <!--/stories-->
+            <div  >
+     
+              <form class="formClass two needs-validation"  id="loginform" (ngSubmit)="loginUser()"  >
+                <h1 class="myText">Log In To Your Account</h1>
+                <br>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="user" placeholder="e-mail" name="user" [(ngModel)]="user.user"  >
+                    <label  id="error1"></label>
+                </div>
+                
+                
+                <div class="form-group">
+                   <input type="password"  class="form-control" id="pwd" placeholder="Password" name="pwd" [(ngModel)]="user.pwd"  >
+                   <label  id="error4"></label>
+                   <br>
+                   <label></label>
+                   <!-- <span id="strength">Type Password</span> -->
+                </div>
+
+                <div class="form-group">
+                    <label for="">Insert Your Avatar- Admin, Seller or Buyer</label>
+                    <!-- <br>
+                    <input type="radio" id="seller" name="avatar" value="seller" [(ngModel)]="user.avatar" required>
+                     <label for="seller">Seller</label>
+                    <br> -->
+                    <!--  <input type="radio" id="buyer" name="avatar" value="buyer">
+                     <label for="buyer">Buyer</label>
+                    <br> -->
+                    <br>
+                    <input type="text" class="form-control" id="avatar" name="avatar" placeholder="Admin,Seller or Buyer" [(ngModel)]="user.avatar" required>
+                     
+                    <br>
+                    <!-- <input type="radio" id="buyer" name="avatar" value="buyer" [(ngModel)]="user.avatar" required>
+                     <label for="buyer">Buyer</label>
+                    <br> -->
+                      
+                  <label  id="error5"></label>
+                  
+               </div>
+                
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" id="exampleCheck1" for="exampleCheck1">Remember me
+                      </label>
+                  <h1></h1>
+                  
+                </div>
+                <label id="check"></label>
+                <h1></h1>
+                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                
+      
+                <div class="myText">
+                  <h5>Don't have an account? </h5>
+                  <a href="/register">Register</a>
+                </div>
+              </form>
+      
+              
+      
+        </div>
+            
+                  <!--/stories
+            
+            
+          
+            
+          </div>
+        </div>
+                                                                                         
+                                                      
+                                                        
+         </div>/col-12-->
+    </div>
+  </div>
+                                                  
+                                                                                  
+  <hr>

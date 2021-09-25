@@ -1,0 +1,7 @@
+@import "..\src\assets\css\styles.css";
+.btn {
+    color: white;
+}
+.btn:hover {
+    color: white;
+}

@@ -1,0 +1,14 @@
+
+@import "..\src\assets\css\styles.css";
+
+.btn{
+    margin: 1%;
+    color: white;
+}
+.btn:hover {
+ color: white;
+}
+h6 {
+    color: black;
+    padding: 10px;
+}
